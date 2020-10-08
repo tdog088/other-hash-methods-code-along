@@ -9,5 +9,6 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+  groceries.values.flatten.min  # will get all the values in groceries in a 
+                                # single array and return the minimum value (alpha. order = "broccoli")
 end
